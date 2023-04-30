@@ -1,0 +1,52 @@
+/************************************
+ * Create by : Massiouane MAIBECHE  *
+ * Code editor : Eclipse            *
+ ************************************/
+ 
+ 
+The directory has been emptied of its files in the 
+'classes' folder.
+_________________________________________________________
+Start the build.xml by building the . class files
+ 
+(ant clean  - if not already)
+ant compiles
+
+_________________________________________________________
+Clean the directory with the following command:
+
+ant clean
+_________________________________________________________
+Generate the javadoc with the following command:
+
+ant javadoc
+_________________________________________________________
+Execute the jar file with the following command:
+
+java -jar Patchwork.jar
+_________________________________________________________
+
+In the 'docs' folder, there are documents whose first is 
+named 'dev.pdf' (to know the differents implementations 
+choices as a developer) and second is named 'user.pdf' 
+(which explains how to play the game).
+
+To know the rules of the game, refer to the document 
+'user.pdf' (docs/user.pdf)
+__________________________________________________________
+
+The 'Classes' folder will contain all the . class 
+extension files.
+
+The 'lib' folder contains the graphic library used to 
+implement the start of the graphic.
+
+The 'src' folder contains all the sources of the project.
+
+A 'build.xml' file is available, it is not recommended to 
+create a jar with the command because the jar generer does 
+not allow to play the game in its integrality.
+
+The 'Patch.txt' file contains the various patches 
+available in the game.
+__________________________________________________________
